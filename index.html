@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Harsubrahm | Packaging Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="indexbody">
+    <header>
+
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="jay">
+                <h1 style="color: white;">Jay Harsubrahm</h1>
+            </div>
+            <!-- <div class="search">
+                <i class="fa-solid fa-magnifying-glass" style="color: white;"></i><br>
+                <input type="text" placeholder="Search for Products" class="search-bar">
+              </div> -->
+              <ul class="navlist">
+                
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li>
+                    <a href="product.html" class="nav-link">Products</a>
+                    <div class="dropdown-content">
+                        <a href="ctu.html">CTU & FTU</a>
+                        <a href="rigidboxes.html">Boxes & Gifts</a>
+                        <a href="bags.html">Others</a>
+                    </div>
+                </li>
+                <li><a href="contacts.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="image-container">
+        <img src="jayharsu.png" alt="JH Printing">
+    </div>
+    
+      
+    
+    <!-- Intro Section -->
+<div class="intro">
+  <div class="videotext">
+    <h4><b>Welcome to Jay Harsubrahm: Your Trusted Packaging Partner</b></h4>
+    <p>We specialize in developing high-quality, creative packaging solutions that are suited to your  <br>specifications.
+      We provide elegant gift boxes, strong rigid boxes, and space-saving collapsible<br> boxes to  fit your needs.Our 
+      extensive custom packaging collection includes delicious boxes,<br> personalized boxes, and quality packaging for 
+      every occasion. <br><br>
+
+      We bring uniqueness and perfection to every design, with alternatives such as magnetic boxes, <br> gift hampers, 
+      lid boxes, and slide boxes. For businesses, we specialize in cosmetic packaging, <br> perfume boxes, and branding 
+      to help your products stand out. <br><br>
+      
+       <b>Looking for something extraordinary?</b> <br><br>
+       Explore our unique designs, including heart-shaped boxes, hexagon boxes, circular boxes, <br> and double-door boxes. 
+      From design to completion, our staff guarantees that each box is <br> carefully made, providing exceptional quality 
+       and functionality. <br><br>
+      
+      Jay Harsubrahm is where innovation meets quality, so make your packaging ideas a reality.</p>
+  </div> 
+  <div class="slider-container">
+    <div class="slider" id="videoSlider">
+      <div class="slide">
+        <video src="products/ticvideo.mp4" muted autoplay loop></video>
+      </div>
+      <div class="slide">
+        <video src="products/v1.mp4" muted autoplay loop></video>
+      </div>
+      <div class="slide">
+        <video src="products/v2.mp4" muted autoplay loop></video>
+      </div>
+      <div class="slide">
+        <video src="products/v5.mp4" muted autoplay loop></video>
+      </div>
+    </div>
+
+    <!-- Navigation buttons -->
+    <button class="nav-button prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="nav-button next" onclick="moveSlide(1)">&#10095;</button>
+
+    <!-- Dots navigation -->
+    <div class="dots">
+      <span onclick="setCurrentSlide(0)" class="dot"></span>
+      <span onclick="setCurrentSlide(1)" class="dot"></span>
+      <span onclick="setCurrentSlide(2)" class="dot"></span>
+      <span onclick="setCurrentSlide(3)" class="dot"></span>
+    </div>
+  </div>
+</div>
+
+<!-- Container Section -->
+<div class="catalogueContainer">
+  <div class="grid">
+    <!-- Catalogue Section -->
+    <section class="feature">
+      <h2>Catalogue</h2>
+      <p>A curated catalogue of best-in-category, sustainable products available to buy in Shop</p>
+      <div class="product-grid">
+        <img src="products/hp1.png" alt="Blue patterned box" class="product-image">
+        <img src="products/hp2.png" alt="Brown box with NRE label" class="product-image">
+        <img src="products/hp3.png" alt="Standard cardboard box" class="product-image">
+        <img src="products/hp4.png" alt="Pink box with heart" class="product-image">
+      </div>
+    </section>
+
+    <!-- Custom Sizing Section -->
+    <section class="feature">
+      <h2>Custom sizing</h2>
+      <p>Design custom packaging that perfectly suits your products</p>
+      <div class="sizing-container">
+        <div class="dimensions">
+          <div class="dimension-row">
+            <span>12</span>
+            <span>cm</span>
+          </div>
+          <div class="dimension-row">
+            <span>14</span>
+            <span>cm</span>
+          </div>
+          <div class="dimension-row">
+            <span>8</span>
+            <span>cm</span>
+          </div>
+        </div>
+        <div class="box-preview">
+          <img src="products/tailor.jpg" alt="Custom packaging display" class="showcase-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- Tailor-made Section -->
+    <section class="feature">
+      <h2>Tailor-made packaging</h2>
+      <p>Reach beyond our catalogue and create original packaging that's unique to your brand and product</p>
+      <div class="tailor-made-image">
+        <img src="products/hp5.jpg" alt="Tailor display" class="showcase-image">
+      </div>
+    </section>
+
+    <!-- Supplier Vetting Section -->
+    <section class="feature">
+      <h2>Pricing</h2>
+      <p>We design our pricing to fit the size and quantity of your products, ensuring it’s 
+        both flexible and competitive to suit your unique packaging needs.</p>
+      <img src="products/price.png" alt="pricing" class="showcasse-image">
+    </section>
+  </div>
+</div>
+
+
+
+<section class="carousel-container">
+<div class="carousel">
+<div class="carousel-item">
+        <img src="jiv0.jpeg" alt="Image 1">
+    </a>
+    <h3>Sunboard-CTU</h3>
+</div>
+<div class="carousel-item">
+        <img src="carousel/homebag.jpeg" alt="Image 2">
+    </a>
+    <h3>Bag</h3>
+</div>
+<div class="carousel-item">
+        <img src="ticcc.jpeg" alt="Image 3">
+    </a>
+    <h3>Tic-Tac Packaging</h3>
+</div>
+<div class="carousel-item">
+        <img src="babycare.jpeg" alt="Image 4">
+    </a>
+    <h3>Paper Corrugated-FTU</h3>
+</div>
+<div class="carousel-item">
+        <img src="abbott.jpeg" alt="Image 5">
+    </a>
+    <h3>Paper Corrugated</h3>
+</div>
+<div class="carousel-item">
+        <img src="carousel/1.png" alt="Image 6">
+    </a>
+    <h3>Jute Bag</h3>
+</div>
+<div class="carousel-item">
+        <img src="carousel/2.png" alt="Image 7">
+    </a>
+    <h3>Stickers</h3>
+</div>
+<div class="carousel-item">
+        <img src="carousel/3.png" alt="Image 8">
+    </a>
+    <h3>Customised Branding Box</h3>
+</div>
+<div class="carousel-item">
+        <img src="carousel/4.png" alt="Image 9">
+    </a>
+    <h3>Plastic-CTU</h3>
+</div>
+<div class="carousel-item">
+        <img src="carousel/5.png" alt="Image 10">
+    </a>
+    <h3>Sunpack-CTU</h3>
+</div>
+<div class="carousel-item">
+        <img src="carousel/almartball.jpeg" alt="Image 11">
+    </a>
+    <h3>Inflatable Balloon</h3>
+</div>
+<div class="carousel-item">
+        <img src="carousel/cdb.jpeg" alt="Image 12">
+    </a>
+    <h3>Cadbury-CTU</h3>
+</div>
+<div class="carousel-item">
+        <img src="carousel/societyctu.jpeg" alt="Image 13">
+    </a>
+    <h3>Sunboard-CTU</h3>
+</div>
+
+
+</div>
+
+</section>
+<a href="https://wa.me/9372607120?text=hello%20" target="_blank">
+    <img src="whatsapp.png" alt="WhatsApp Button" style="width: 80px; height: 80px; bottom: 70px;right: 20px;position: fixed; border-radius: 50px;">
+  </a>
+
+<script>
+// Video Slider
+let videoCurrentIndex = 0;
+
+const videoSlides = document.querySelectorAll(".slide");
+const videoSlider = document.getElementById("videoSlider");
+const videoDots = document.querySelectorAll(".dot");
+
+function updateVideoSlider(index) {
+  const totalVideoSlides = videoSlides.length;
+
+  // Loop slides
+  if (index >= totalVideoSlides) videoCurrentIndex = 0;
+  else if (index < 0) videoCurrentIndex = totalVideoSlides - 1;
+  else videoCurrentIndex = index;
+
+  // Move slider horizontally
+  videoSlider.style.transform = `translateX(-${videoCurrentIndex * 100}%)`;
+
+  // Update dots
+  videoDots.forEach((dot, i) => {
+    dot.classList.toggle("active", i === videoCurrentIndex);
+  });
+}
+
+function moveVideoSlide(step) {
+  updateVideoSlider(videoCurrentIndex + step);
+}
+
+function setCurrentVideoSlide(index) {
+  updateVideoSlider(index);
+}
+
+// Auto-slide every 5 seconds
+setInterval(() => moveVideoSlide(1), 5000);
+
+// Initialize the first video slide
+updateVideoSlider(0);
+
+// Carousel Logic
+const carousel = document.querySelector('.carousel');
+const carouselItems = document.querySelectorAll('.carousel-item');
+const visibleItems = 13; // Number of items visible
+const itemWidth = carouselItems[0].offsetWidth + 20; // Add spacing (margin, padding, etc.)
+let carouselIndex = 0;
+
+// Clone carousel items for smooth looping
+carouselItems.forEach((item) => {
+  const clone = item.cloneNode(true);
+  carousel.appendChild(clone);
+});
+
+function slideCarousel() {
+  carouselIndex++;
+
+  // Slide the carousel
+  carousel.style.transition = 'transform 1s ease-in-out';
+  carousel.style.transform = `translateX(-${carouselIndex * itemWidth}px)`;
+
+  // Reset to the start when reaching the end of the original items
+  if (carouselIndex >= carouselItems.length) {
+    setTimeout(() => {
+      carousel.style.transition = 'none'; // Disable transition
+      carousel.style.transform = 'translateX(0)'; // Reset position
+      carouselIndex = 0;
+    }, 1000); // Match the transition duration
+  }
+}
+
+// Auto-slide every 3 seconds
+setInterval(slideCarousel, 3000);
+
+</script><br><br>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="logo.png" alt="Jayy">
+                <h1>Jay Harsubrahm</h1>
+                <p>Providing great services for all types of Printing and Packaging.</p>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>If you have any boxes requirements or need help, feel free to contact</p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto: jayharsubrahm86@gmail.com" style="color: white;"> jayharsubrahm86@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+919619506362" style="color: white;">+91 96195 06362</a></p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+919930276332" style="color: white;">+91 99302 76332</a></p>
+                <p><i class="fa-solid fa-map-location-dot"></i><a href="contacts.html" style="color: white;"> Vittbhatti, Durga Nagar, Opp. Virwani Ind.Estate, Goregaon West, Mumbai - 400 063</a></p>
+                <p><i class="fa-solid fa-calendar-days"></i> Working Days: Monday - Saturday</p>
+                <p><i class="fa-solid fa-clock"></i> Working Hours: 9:00 Am - 6:30 Pm</p>
+            </div>
+            <div class="footer-links">
+                <ul class="footlist">
+                    <h4>Quick Links</h4>
+                    <li><i class="fa-solid fa-arrow-right"></i><a href="index.html" class="foot-link">Home</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i><a href="about.html" class="foot-link">About</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i><a href="product.html" class="foot-link">Products</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i><a href="contacts.html" class="foot-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="button-container">
+                <button class="btn" id="btn1"><i class="fa-solid fa-clipboard-question"></i><a href="contacts.html" style="color: #2F3C7E;"> Ask Query</a></button>
+                <button class="btn" id="btn2"><i class="fa-solid fa-envelope"></i> <a href="mailto: jayharsubrahm86@gmail.com" style="color: #2F3C7E;"> Send Mail</a></button>
+                <button class="btn" id="btn3"><i class="fa-solid fa-phone"></i> <a href="tel:+919619506362" style="color: #2F3C7E;"> Call</a></button>
+            </div>
+        </div>
+        
+        <p>&copy; 2024 Jay Harsubrahm. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
